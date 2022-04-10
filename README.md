@@ -14,7 +14,7 @@ This project is styled using [react-Bootsrap]("https://react-bootstrap.github.io
 ## Tech Stack User
 MERN Stack
 
-##Progamming Type
+## Progamming Type
 Functional Programming in React
 
 Visit the deployed Site
