@@ -4,6 +4,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Methods
 Authentication
+Seperate User profile and product Info
+Site Loads every eight Hours to check if the price of the product is dropped
 
 
 
