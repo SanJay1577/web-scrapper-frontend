@@ -76,7 +76,7 @@ export function SignupPage() {
           Sign Up
         </button>
         <p className="text-right">
-          Already registered <a href="http://localhost:3000/login">sign in?</a>
+          Already registered <a href="https://web-scrapper.netlify.app/login">sign in?</a>
         </p>
       </form>
     </div>

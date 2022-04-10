@@ -68,10 +68,10 @@ export function LoginPage() {
           Submit
         </button>
         <p className="forgot-password text-right">
-          Forgot <a href="http://localhost:3000/forget-password">password?</a>
+          Forgot <a href="https://web-scrapper.netlify.app/forget-password">password?</a>
         </p>
         <p className="forgot-password text-right">
-          New user? <a href="http://localhost:3000/signup">sign up</a>
+          New user? <a href="https://web-scrapper.netlify.app/signup">sign up</a>
         </p>
       </form>
     </div>
