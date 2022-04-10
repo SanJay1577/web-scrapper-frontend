@@ -10,6 +10,7 @@ In the project directory, you can run:
 
 Runs the app in the development mode.\
 Open [https://web-scrapper.netlify.app/](https://web-scrapper.netlify.app/) to view it in your browser.
+<img src="https://helpx.adobe.com/content/dam/help/en/photoshop/using/convert-color-image-black-white/jcr_content/main-pars/before_and_after/image-before/Landscape-Color.jpg" width:"200px"/>
 
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
