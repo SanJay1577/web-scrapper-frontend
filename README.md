@@ -1,73 +1,44 @@
-# Getting Started with Create React App
+# Web-Scrapper for Amazon and Flipkart
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is styled using [react-Bootsrap]("https://react-bootstrap.github.io/getting-started/introduction/")
 
-## Available Scripts
+## Operations
+```
+*Authentication
+*Seperate User profile and product Info
+*Site Loads every eight Hours to check if the price of the product is dropped
+*CRUD Operation on Products to add edit and delete the product by the user
+*email notification for the userr when the price is dropped
+```
+## Tech Stack User
+MERN Stack
 
-In the project directory, you can run:
+## Progamming Type
+Functional Programming in React
 
-### `npm start`
-
-Runs the app in the development mode.\
+Visit the deployed Site
 Open [https://web-scrapper.netlify.app/](https://web-scrapper.netlify.app/) to view it in your browser.
 
-![myimage-alt-tag](url-to-image)
-![stack Overflow](http://lmsotfy.com/so.png)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+##Steps
+```
+*Login if you are a user or signup withh your details
+*If you want a demo site a demo user details are mentioned in demo login
+*Dash Board Page will be authorised 
+*Select a brand name Amazon or Flipkart to Scrape.
+*Enter the product Url and your price range 
+*Your Product will be scrappeed every Eight hours and email will be sent you if the prices are lower
+*Edit Delete Buttons are provied for the respective operations 
+```
 
-### `npm test`
+## Styling
+React-Bootstarp is used for additional Styling and basic CSS is used.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Authentication
+JWT is used for authentication the decoded tokend is saved in the localstorage for access
 
-### `npm run build`
+## Backend
+Database is deployed in mongodb Atlas and server runs in heroku
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
