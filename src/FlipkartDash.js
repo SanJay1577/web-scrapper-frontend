@@ -26,7 +26,6 @@ export function FlipkartDash() {
           },
         });
         const data = await res.json();
-        console.log(data);
         setName(data.user);
         setProducts(data.data); //setting the product details in the product hook
         if (!data) return console.log("I'm not available");
@@ -35,7 +34,7 @@ export function FlipkartDash() {
       }
     };
     getDetails();
-    setInterval(()=>getDetails(),5000);
+    setInterval(()=>getDetails(),28800000);
   }, []);
 
 
