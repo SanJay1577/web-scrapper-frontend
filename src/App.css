@@ -1,38 +1,223 @@
+body {
+  background-color: whitesmoke;
+}
 .App {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.main-image {
+  padding: 10px;
+  object-fit: cover;
+  width: 1000px;
+  height: 500px;
+  opacity: 0.5;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+h2,
+p,
+.prod-count {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+  opacity: 1;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+h1 {
+  font-weight: bolder;
+  font-size: larger;
+  font-family: "Times New Roman", Times, serif;
+  padding: 10px;
+}
+.feature-div {
+  padding: 15px;
+  margin: 5px;
   display: flex;
+  align-items: center;
   flex-direction: column;
+}
+/* #EFF54D, #00AC61 */
+.feature-para {
+  color: white;
+  background: linear-gradient(90deg, #88a9ec, #5c23e0);
+  padding: 27px;
+  border-radius: 5px;
+  width: 1000px;
+  height: 100px;
+  display: flex;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  font-size: larger;
 }
 
-.App-link {
-  color: #61dafb;
+.footer-div {
+  background-color: #242b2e;
+  width: 100%;
+  height: max-content;
+  color: whitesmoke;
+  padding: 10px;
+}
+.footer-div p:hover {
+  color: black;
+  cursor: pointer;
+}
+.login-form,
+.signup-form,
+.forget-password,
+.post-product {
+  width: 700px;
+  margin: 25px auto;
+  padding: 27px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  background: #fff;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.brand-image {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: center;
+  padding: 10px;
+}
+
+.brand-image > img {
+  width: 270px;
+  height: 300px;
+  object-fit: cover;
+  transition: box-shadow 0.2s;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  background: #fff;
+}
+
+.brand-image > img:hover {
+  cursor: pointer;
+  box-shadow: 0 0 11px rgba(33, 33, 33, 0.2);
+}
+
+.post-product {
+  background: linear-gradient(90deg, #fed54a, #ff9347);
+  border-radius: 10px;
+}
+label {
+  font-weight: bolder;
+}
+.data-div {
+  color: whitesmoke;
+  padding: 5px;
+  border-radius: 5px;
+  font-weight: bold;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.msg-div {
+  background-color: teal;
+}
+.error-div {
+  background-color: crimson;
+}
+
+.nav-bar {
+  display: flex;
+  padding: 5px;
+}
+.nav-bar > h3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap: 0.5rem;
+  font-size: 25px;
+  font-weight: bolder;
+}
+.nav-bar > button {
+  margin-left: auto;
+  padding: 7px;
+  background: linear-gradient(90deg, #fed54a, #ff9347);
+  border-radius: 5px;
+  font-weight: bolder;
+  border: #ccc;
+  cursor: pointer;
+}
+.indi-product {
+  text-align: center;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
+  width: 200px;
+  padding: 10px;
+}
+.indi-product > h6 {
+  text-align: justify;
+  font-weight: bolder;
+}
+.indi-product > img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+}
+.long-name {
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.all-products {
+  padding: 27px;
+  display: flex;
+  gap: 0.5rem;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.product-button {
+  padding-top: 5px;
+}
+
+@media only screen and (min-width: 620px) and (max-width: 920px) {
+  .main-image {
+    width: 600px;
   }
-  to {
-    transform: rotate(360deg);
+  .feature-para,
+  .login-form,
+  .signup-form,
+  .forget-password,
+  .post-product {
+    width: 500px;
+  }
+}
+
+@media only screen and (min-width: 280px) and (max-width: 600px) {
+  .main-image {
+    width: 270px;
+    height: 400px;
+  }
+  .feature-para,
+  .login-form,
+  .signup-form,
+  .forget-password,
+  .post-product {
+    width: 270px;
+  }
+  .brand-image > img {
+    height: 200px;
+  }
+  .nav-bar > h3 {
+    font-size: 15px;
+  }
+
+  .nav-bar > button {
+    padding: 3px;
+  }
+  .indi-product > img {
+    width: 130px;
+  }
+  .indi-product {
+    width: 145px;
+    font-size: 12px;
+    height: 320;
+    padding: 5px;
+  }
+  .all-products {
+    padding: 5px;
+    gap: 0.5rem;
+  }
+  .indi-product > h6 {
+    font-size: small;
+    padding: 2px;
   }
 }
