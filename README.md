@@ -3,9 +3,10 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Methods
-Authentication
-Seperate User profile and product Info
-Site Loads every eight Hours to check if the price of the product is dropped
+***
+>Authentication
+>Seperate User profile and product Info
+>Site Loads every eight Hours to check if the price of the product is dropped
 
 
 
