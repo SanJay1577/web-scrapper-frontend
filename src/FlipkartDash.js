@@ -33,6 +33,7 @@ export function FlipkartDash() {
         setErr(error.error);
       }
     };
+    getDetails();
     setInterval(()=>getDetails(), 28800000);
   }, []);
 

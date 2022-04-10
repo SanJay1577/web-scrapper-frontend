@@ -35,6 +35,7 @@ export function AmazonDash() {
         setErr(error.error);
       }
     };
+    getDetails();
     setInterval(()=>getDetails(), 28800000);
   }, []);
 
