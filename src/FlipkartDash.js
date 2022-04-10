@@ -15,7 +15,7 @@ export function FlipkartDash() {
   const [id, setId] = useState("");
 
   //Get details from the api
-
+setInterval(()=>{
   useEffect(() => {
     const getDetails = async () => {
       try {
@@ -34,8 +34,8 @@ export function FlipkartDash() {
       }
     };
     getDetails();
-    setInterval(()=>getDetails(), 28800000);
   }, []);
+}, 28800000 )
 
   //Create a new ProductList
 

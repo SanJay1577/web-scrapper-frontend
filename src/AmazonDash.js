@@ -17,7 +17,8 @@ export function AmazonDash() {
   const [id, setId] = useState("");
 
   //Get details from the api.
-
+  //Check price every eight hours.
+setInterval(()=>{
   useEffect(() => {
     const getDetails = async () => {
       try {
@@ -36,8 +37,9 @@ export function AmazonDash() {
       }
     };
     getDetails();
-    setInterval(()=>getDetails(), 28800000);
+    
   }, []);
+},28800000)
 
   //Create a new ProductList
 
