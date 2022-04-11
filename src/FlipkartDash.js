@@ -34,7 +34,8 @@ export function FlipkartDash() {
       }
     };
     getDetails();
-    setInterval(()=>getDetails(),28800000);
+    //need to work on eight hours product check 
+    // setInterval(()=>getDetails(),28800000);
   }, []);
 
 
